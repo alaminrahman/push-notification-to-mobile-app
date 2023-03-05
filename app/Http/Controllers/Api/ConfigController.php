@@ -16,8 +16,8 @@ class ConfigController extends Controller
             'order_id' => 111,
         ];
 
-        $key = 'AAAAvevrrq0:APA91bG4Wv8TvdEmGDKxOkFvqY6-ZOhSLK2Pp42RHjXV87JMVbACtlPloE9TH-ir54-k3ZaNUGvwMuIZU0LXyCPJsdirAmWYSykSCH98wcOPDPlaL5vm9VmxCkZJncSo-pQUeZkseA2K';
-        $fcm_token = 'dMlT1qu3Tqm656QGfflvDK:APA91bFaHiiioECRtVyKE7ljUN_McdA7cxDfeAIamJn1n9DxSHkaAWIzqgI91OjRo4WzwlyrZ6bxYzmDKZ7bHuFvaLw8ezPaQS7bjR716CH6COehSNtiLBuBCxGVdZHf0FjlNopHHikL';
+        $key = 'your server key';
+        $fcm_token = 'device fcm token';
 
         $url = "https://fcm.googleapis.com/fcm/send";        
         $header = array("authorization: key=" . $key . "",        
